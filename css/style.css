@@ -1,0 +1,70 @@
+.te-redirect-list {
+    margin-top: 20px;
+}
+
+.te-redirect-item {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.te-redirect-item:hover {
+    background: bisque;
+}
+
+.te-redirect-item .te-redirect-item-remove {
+    color: red;
+}
+
+.te-redirect-item .te-redirect-item-add {
+    color: green;
+    font-weight: bold;
+}
+
+.te-redirect-container {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.te-redirect-processing {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 20;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.te-redirect-processing.active {
+    display: block;
+}
+
+.te-redirect-processing-text {
+    margin-top: 30%;
+    left: 50%;
+    margin-left: -100px;
+    width: 100px;
+    position: absolute;
+    height: 30px;
+    font-size: 32px;
+}
+
+.te-redirect-item input.error {
+    border: 1px solid red;
+}
+
+.te-error .update-nag {
+    clear: both;
+}
+
+.te-redirect-item-remove {
+    margin-right: 10px;
+}
+
+.item-from,
+.item-to {
+    padding: 5px;
+    width: 40%;
+}
